@@ -1,0 +1,29 @@
+h1, h2{
+    color:rgb(255, 255, 254);
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c{
+    color:white;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-align:center;
+}
+input{
+    display: block;
+    border-radius: 25px;
+    border: 2px solid #d3d9db;
+    width:200px;
+    height:30px;
+    padding: 0 1.25rem; 
+}
+input::placeholder{
+    font: 1.25rem/3 sans-serif;
+}
